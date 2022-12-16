@@ -4,4 +4,12 @@ const printVal = (name, val) => {
     }
 }
 
-printVal('Segun', 8)
+printVal('Segun', 8);
+
+//ARGUMENTS MAY NOT NEED TO BE USED WHEN CALLING THEM SO WE USE THE '?'
+function testr(status?: string) {
+    console.log(`I am ${status || 'not ready'}`)
+}
+
+testr();
+testr('ready')

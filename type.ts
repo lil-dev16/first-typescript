@@ -17,3 +17,5 @@ firstDaughter = 1; //this has a type of any
 firstSon = 'SEGUN' //this has strict type of string can be any other
 
 
+
+

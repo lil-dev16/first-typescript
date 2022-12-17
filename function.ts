@@ -20,4 +20,5 @@ const greetMaster = (status = 'Segun') =>{
     
 }
 
+greetMaster('ayo');
 greetMaster()

@@ -21,4 +21,11 @@ const greetMaster = (status = 'Segun') =>{
 }
 
 greetMaster('ayo');
-greetMaster()
+greetMaster();
+
+//function smetimes may return wrong val
+
+function chooseFruit() :string{
+    return 2 //this gives error
+}
+chooseFruit()

@@ -26,6 +26,6 @@ greetMaster();
 //function smetimes may return wrong val
 
 function chooseFruit() :string{
-    return 2 //this gives error
+    return 'apple' //no err sice its a string
 }
 chooseFruit()
